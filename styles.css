@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #bfc5af;
+}
+
+.container {
+    background-color: #f3ecec;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+.display-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.display-container input {
+    flex: 1;
+    padding: 0.5em;
+    font-size: 1em;
+    margin-right: 0.5em;
+    border: 1px solid #0c0000;
+    border-radius: 5px;
+}
+
+.display-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.input-container p {
+    margin: 0.5em 0;
+}
+
+.input-container input[type="range"] {
+    width: 100%;
+}
+
+.input-container div {
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+
+.input-container label {
+    margin-left: 0.5em;
+}
+
+.strength-container {
+    margin: 1em 0;
+    text-align: left;
+}
+
+.strength-container div {
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #1a8132;
+}
+
+.generateButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.generateButton:hover {
+    background-color: #0056b3;
+}
+
+.copyMsg {
+    display: none;
+}
+
+.copyMsg.active {
+    display: inline;
+    color: green;
+}
